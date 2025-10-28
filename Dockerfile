@@ -14,7 +14,7 @@ RUN npm install --production
 COPY . .
 
 #PORT app runs on 
-EXPOSE 6000
+EXPOSE 5000
 
 # Run the app
 ENTRYPOINT ["node", "index.js"]
