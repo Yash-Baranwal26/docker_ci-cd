@@ -1,0 +1,17 @@
+# Exclude env file so secrets are not baked into the image
+.env
+
+# Exclude dependencies
+node_modules
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Git stuff
+.git
+.gitignore
+
+# Docker build files
+Dockerfile
+.dockerignore
