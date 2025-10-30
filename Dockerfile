@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5000
 
 # Run the app
-ENTRYPOINT ["node", "index.js"]
+CMD ["node", "index.js"]
