@@ -13,7 +13,7 @@ app.use(cors())
 app.use("/api", router)
 
 app.get('/',(req, res)=>{
-    res.send("Server is running!")
+    res.send("Server is running! Now CI/CD pipeline is stablished everything is automated now")
 })
 
 
